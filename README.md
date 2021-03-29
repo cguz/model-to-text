@@ -1,6 +1,10 @@
 # General framework to translate a model to natural language
 
 
-![alt text](http://https://raw.githubusercontent.com/cguz/model-to-text/main/img/MT-Component-Diagram.svg)
+![Component](https://raw.githubusercontent.com/cguz/model-to-text/5e15e31a5018be9308426e693dca1da4edee936c/img/MT-Component-Diagram.svg)
+
+
+
+![Class diagram](https://raw.githubusercontent.com/cguz/model-to-text/5e15e31a5018be9308426e693dca1da4edee936c/img/MT-Class-Diagram.svg)
 
 
