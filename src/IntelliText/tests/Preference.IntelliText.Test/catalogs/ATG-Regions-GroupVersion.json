@@ -1,0 +1,119 @@
+{
+  "version": {
+    "ProductPreference": "20.1.1.4585",
+    "Product": "0.0.0.2"
+  },
+
+  "TemplateRegions": [
+    {
+      "Id" :  1,
+      "RegionName": "Description",
+      "Title": "Description",
+      "ShowTitle": true,
+      "Description": "Example of a description of the model (e.g., window)",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    },
+    {
+      "Id": 2,
+      "RegionName": "Color",
+      "Title": "Region Color",
+      "ShowTitle": true,
+      "Description": "Description of region ShortDescription",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    },
+    {
+      "Id": 3,
+      "RegionName": "Felds",
+      "Title": "Feld 1:",
+      "ShowTitle": true,
+      "Description": "Description of region Felds",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    },
+    {
+      "Id": 4,
+      "RegionName": "Price",
+      "Title": "Preisliste:",
+      "ShowTitle": true,
+      "Description": "Come from PDG:",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    },
+    {
+      "Id": 5,
+      "RegionName": "Other",
+      "Title": "Glasmasse (Breite (mm) x Hoehe (mm)):",
+      "ShowTitle": true,
+      "Description": "More specific regions:",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    }
+  ],
+
+  "GroupProductsInRegions": [
+    {
+      // una región es totalmente diferente del tipo del producto o atom. 
+      // El que elementos tiene una región estara definido internamente en el código 
+      "RegionName": 2,
+      "Products": [
+        {
+          "Group": "color",
+          "ATGText": "Farbe: Weiss",
+          "OrderVertical": 1,
+          "OrderHorizontal": 2
+        }
+      ]
+    },
+    {
+      "RegionName": 1,
+      "Products": [
+        {
+          "Group": "description",
+          "ATGText": "Farbe: JANUS (Acryglas wetterseitig)",
+          "OrderVertical": 1,
+          "OrderHorizontal": 1
+        },
+        {
+          "Group": "dimensions",
+          "ATGText": "Glassmasse ()",
+          "OrderVertical": 2,
+          "OrderHorizontal": 2
+        }
+      ]
+    },
+    {
+      "RegionName": 4,
+      "Products": [
+        {
+          "Group": "price-general",
+          "ATGText": "price list",
+          "OrderVertical": 1,
+          "OrderHorizontal": 1
+        },
+        {
+          "Group": "price",
+          "ATGText": "price list",
+          "OrderVertical": 2,
+          "OrderHorizontal": 1
+        }
+      ]
+    }
+  ]
+}

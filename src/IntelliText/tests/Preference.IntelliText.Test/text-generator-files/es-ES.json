@@ -1,0 +1,50 @@
+{
+  "Translator": {
+    "ColorJanus": "Color: JANUS (vidrio acrílico, lado del clima)",
+    "ExteriorAluminio": "exterior: aluminio blanco (similar a RAL 9006)",
+    "Interior": "interior: blanco tráfico RAL 9016",
+    "FarbeWeiss": "Color blanco",
+
+    "PremiumK825": "Premium K825",
+    "Serie67": "Serie 67 fv LUMAXX",
+    "VidrioBiselado": "¡con cordón de acristalamiento simplemente biselado!",
+    "VidrioAislamientoTermico": "Vidrio de aislamiento térmico 4E / 14/4 Blanco satinado / 14 / 4E, Ug = 0,6 W / m ^ 2K, 32dB, 'borde cálido TPS'",
+
+    "SeguridadWSafe": "Equipo de seguridad W-Safe",
+    "AperturaGiratoria": "Apertura giratoria-basculante DIN R hacia el interior",
+    "ManijaInferior190": "Posición de la manija del ala inferior 190 mm",
+    "TraficoRAL": "blanco tráfico RAL9016",
+    "TapasHardware": "Tapas de hardware, blancas",
+
+    "PVC-ECOVEN": "Carpinteria pvc ECOVEN 70 mm",
+    "Monoblock": "Monoblock: de 185 mm Tapa Decorativa, Lama Aluminio 43 mm, Blanca, Marco+Guía=98mm",
+    "RecogedorMarco": "Recogedor en Marco",
+    "TapaJuntasInterior": "Tapajuntas Interior: 50 mm",
+    "TapaJuntasExterior": "Tapajuntas Exterior: NO",
+    "HerrajeColor": "Herraje Blanco",
+    "Abstandhalter": "Espaciador: gris",
+    "Duebelbohrung": "Duebelbohrung: sin 6 mm",
+    "Entwasserung": "Drenaje: al frente",
+    "FarbeWeiss": "Color: Blanco",
+    "FlugelSystem": "Sistema de alas: 77 mm HL (180x26) pegado",
+    "Glasmasse471": "1: 471 x 1188: ISO-H0971",
+    "Glasmasse746": "2: 746 x 1188: ISO-H0971",
+    "Griffhoehe1": "Altura del mango (mm) 1: 583",
+    "Griffhoehe2": "Altura del mango (mm) 2: 583",
+    "KPreci1": "4E / 14/4/14 / Err2 VSG 44 mm Ug0,6 Rw 39 g50 Lt69 (H0971)",
+    "KPreci2": "Borde cálido para vidrio triple",
+    "KPreci3": "Recargo por nivel de seguridad de hardware RC2",
+    "KPreci4": "Tapón de drenaje, RAL 9016",
+    "KPreci5": "DK + DK",
+    "KPreci6": "Tapas de cubierta ROTO, blancas",
+    "KPreci7": "Manilla de ventana Atlanta Secustic, blanca",
+    "KPreci8": "Conexión bancaria de 30 mm (PP410THKI)",
+    "ProfilSystem": "Sistema de perfiles: Aluplast ID8000",
+    "RahmenSystem": "Sistema de marco: 80 mm (180x05)"
+  },
+
+  "version": {
+    "ProductPreference": "20.1.1.4585",
+    "Product": "0.0.0.3"
+  }
+}

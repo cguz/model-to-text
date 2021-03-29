@@ -1,0 +1,94 @@
+{
+  "version": {
+    "ProductPreference": "20.1.1.4585",
+    "Product": "0.0.0.3"
+  },
+
+  "TemplateRegions": "./catalogs/ATG-Regions.json",
+
+  "TemplatesConf": [
+    {
+      "TemplateName": "WB-OneDescription-UseCase1",
+      "Title": "Example of use case 1 : WB-Description-UseCase1",
+      "ShowTitle": true,
+      "Description": "This example contains one region (description) of the model.",
+      "ShowDescription": true
+    },
+    {
+      "TemplateName": "WB-SeveralDescriptions-UseCase2",
+      "Title": "Example of use case 2 : WB-SeveralDescriptions-UseCase2",
+      "ShowTitle": true,
+      "Description": "This example contains several descriptions of the model",
+      "ShowDescription": false
+    },
+    {
+      "TemplateName": "WB-SeveralDescriptionsPrice-UseCase3",
+      "Title": "Example of use case 3 : WB-SeveralDescriptionsPrice-UseCase3",
+      "ShowTitle": true,
+      "Description": "This example contains several descriptions of the model and also price",
+      "ShowDescription": false
+    }
+
+  ],
+
+  "TemplatesFillRegions": [
+    {
+      "TemplateName": "WB-OneDescription-UseCase1",
+      "Regions": [ 1 ]
+      // "Regions": [ "Description" ]
+    },
+    {
+      "TemplateName": "WB-SeveralDescriptions-UseCase2",
+      "Regions": [ 2, 3, 4 ]
+      // "Regions": [ "Color", "Description", "Felds" ]
+    },
+    {
+      "TemplateName": "WB-SeveralDescriptionsPrice-UseCase3",
+      "Regions": [ 2, 3, 6, 5 ]
+      // "Regions": [ "Color", "Description", "Price" ]
+    }
+  ],
+
+  "TemplatesAudienceTargets": [
+    {
+      "TemplateName": "WB-OneDescription-UseCase1",
+      "AudienceTargets": [
+        {
+          "Target": "Architect",
+          "Type": "FULL"
+        },
+        {
+          "Target": "Consumer",
+          "Type": "FULL"
+        },
+        {
+          "Target": "Architect-DE",
+          "Type": "FULL"
+        }
+      ]
+    },
+    {
+      "TemplateName": "WB-SeveralDescriptions-UseCase2",
+      "AudienceTargets": [
+        {
+          "Target": "Consumer",
+          "Type": "FULL"
+        }
+
+      ]
+    },
+    {
+      "TemplateName": "WB-SeveralDescriptionsPrice-UseCase3",
+      "AudienceTargets": [
+        {
+          "Target": "Architect",
+          "Type": "FULL"
+        },
+        {
+          "Target": "Consumer",
+          "Type": "FULL"
+        }
+      ]
+    }
+  ]
+}

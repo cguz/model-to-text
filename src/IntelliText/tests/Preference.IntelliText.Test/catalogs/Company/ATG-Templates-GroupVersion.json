@@ -1,0 +1,68 @@
+{
+  "version": {
+    "ProductPreference": "20.1.1.4585",
+    "Product": "0.0.0.3"
+  },
+
+  "TemplateRegions": "./catalogs/ATG-Regions-GroupVersion.json",
+
+  "TemplatesConf": [
+    {
+      "TemplateName": "WB-SeveralDescriptionPriceGrouped-UseCase4",
+      "Title": "Example of use case 4 : WB-SeveralDescriptionPriceGrouped-UseCase4",
+      "ShowTitle": true,
+      "Description": "This example contains several descriptions of the model and also price of the model",
+      "ShowDescription": false
+    },
+    {
+      "TemplateName": "WB-Werbaut-P2-GroupVersion",
+      "Title": "Example of use case 5 : WB-Werbaut-P2-GroupVersion",
+      "ShowTitle": true,
+      "Description": "This example contains color and descriptions of the model",
+      "ShowDescription": false
+    }
+
+  ],
+
+  "TemplatesFillRegions": [
+    {
+      "TemplateName": "WB-SeveralDescriptionPriceGrouped-UseCase4",
+      "Regions": [ 2, 1, 4 ]
+      // "Regions": [ "Color", "Description", "Price", "Other" ]
+    },
+    {
+      "TemplateName": "WB-Werbaut-P2-GroupVersion",
+      "Regions": [ 2, 1, 4 ]
+      // "Regions": [ "Color", "Description", "Price", "Other" ]
+    }
+  ],
+
+  "TemplatesAudienceTargets": [
+    {
+      "TemplateName": "WB-Werbaut-P1-GroupVersion",
+      "AudienceTargets": [
+        {
+          "Target": "Architect",
+          "Type": "FULL"
+        },
+        {
+          "Target": "Consumer",
+          "Type": "FULL"
+        }
+      ]
+    },
+    {
+      "TemplateName": "WB-Werbaut-P2-GroupVersion",
+      "AudienceTargets": [
+        {
+          "Target": "Architect",
+          "Type": "FULL"
+        },
+        {
+          "Target": "Consumer",
+          "Type": "FULL"
+        }
+      ]
+    }
+  ]
+}

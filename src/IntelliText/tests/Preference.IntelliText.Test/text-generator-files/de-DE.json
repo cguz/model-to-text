@@ -1,0 +1,49 @@
+{
+  "Translator": {
+    "ColorJanus": "Farbe: JANUS (Acryglas wetterseitig)",
+    "ExteriorAluminio": "aussen: weissaluminium (ahnlich RAL 9006)",
+    "Interior": "innen: RAL 9016 verkehrsweiss",
+    "FarbeWeiss": "Farbe: Weiss",
+
+    "PremiumK825": "Premium K825",
+    "Serie67": "Serie 67 fv LUMAXX",
+    "VidrioBiselado": "mit einfach abgeschragter Glasleiste !",
+    "VidrioAislamientoTermico": "Warmeschutzglas 4E/14/4 Satinato weiss/14/4E, Ug=0.6 W/m^2K, 32dB, 'warme Kante TPS'",
+
+    "SeguridadWSafe": "Sicherheitsausstattung W-Safe",
+    "AperturaGiratoria": "Dreh-Kipp DIN R nach innen offnend",
+    "ManijaInferior190": "Griffposition von UK-Fluegel 190 mm",
+    "TraficoRAL": "verkehrsweiss RAL9016",
+    "TapasHardware": "Beschlagkappen, weiss",
+
+    "PVC-ECOVEN": "ECOVEN PVC-Zimmerei 70 mm",
+    "Monoblock": "Monoblock: 185 mm dekorativer Deckel, Aluminium Lama 43 mm, weiﬂ, Rahmen + F¸hrung = 98 mm",
+    "RecogedorMarco": "Abholung im Rahmen",
+    "TapaJuntasInterior": "Innenblink: 50 mm",
+    "TapaJuntasExterior": "Auﬂenblinken: Keine",
+    "HerrajeColor": "Weiﬂe Hardware",
+    "Abstandhalter": "Abstandhalter: Grau",
+    "Duebelbohrung": "Duebelbohrung: ohne 6mm",
+    "Entwasserung": "Entwaesserung: nach vorne",
+    "FlugelSystem": "Fluegel system: 77mm HL (180x26) verklebt",
+    "Glasmasse471": "1: 471 x 1188: ISO-H0971",
+    "Glasmasse746": "2: 746 x 1188: ISO-H0971",
+    "Griffhoehe1": "Griffhoehe (mm) 1: 583",
+    "Griffhoehe2": "Griffhoehe (mm) 2: 583",
+    "KPreci1": "4E/14/4/14/Err2 VSG 44mm Ug0.6 Rw 39 g50 Lt69 (H0971)",
+    "KPreci2": "Warme Kante fuer 3-fach Glas",
+    "KPreci3": "Zuschlag fuer Beschlag Sicherheitsstufe RC2",
+    "KPreci4": "Entwaesserungskappe, RAL 9016",
+    "KPreci5": "DK + DK",
+    "KPreci6": "ROTO Abdeckkappen Weiss",
+    "KPreci7": "Fenstergriff Atlanta Secustic Weiss",
+    "KPreci8": "Bankanschluss 30mm (PP410THKI)",
+    "ProfilSystem": "Profil system: Aluplast ID8000",
+    "RahmenSystem": "Rahmen system: 80mm (180x05)"
+  },
+
+  "version": {
+    "ProductPreference": "20.1.1.4585",
+    "Product": "0.0.0.3"
+  }
+}

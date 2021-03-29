@@ -1,0 +1,358 @@
+{
+  // funcionando con el commit 5385c61d55aed943f8ab6bd92bfce177fadb8fe7
+  "version": {
+    "ProductPreference": "20.1.1.4585",
+    "Product": "0.0.0.2"
+  },
+
+  "TemplateRegions": [
+    {
+      "Id": 1,
+      "RegionName": "description",
+      "Title": "Title of Region description:",
+      "ShowTitle": true,
+      "Description": "Example of a description",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    },
+    {
+      "Id": 2,
+      "RegionName": "ShortDescription",
+      "Title": "Title of Region ShortDescription",
+      "ShowTitle": true,
+      "Description": "Example for the region ShortDescription",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    },
+    {
+      "Id": 3,
+      "RegionName": "LongDescription",
+      "Title": "Title of Region LongDescription",
+      "ShowTitle": true,
+      "Description": "Example for the region LongDescription",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    },
+    {
+      "Id": 4,
+      "RegionName": "Felds",
+      "Title": "Feld 1:",
+      "ShowTitle": true,
+      "Description": "Description of region Felds",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    },
+    {
+      "Id": 5,
+      "RegionName": "Price",
+      "Title": "Preisliste:",
+      "ShowTitle": true,
+      "Description": "Come from PDG:",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    },
+    {
+      "Id": 6,
+      "RegionName": "Other",
+      "Title": "Glasmasse (Breite (mm) x Hoehe (mm)):",
+      "ShowTitle": true,
+      "Description": "More specific regions:",
+      "ShowDescription": false,
+      "SingleText": "",
+      "AccumulatePrices": "",
+      "Type": "SEP",
+      "WhenINKNoText": true
+    }
+  ],
+
+  "GroupProductsInRegions": [
+    {
+      "RegionName": 1,
+      "Products": [
+        {
+          "Product": "PVC-ECOVEN",
+          "ATGText": "Carpinteria pvc ECOVEN 70 mm",
+          "OrderVertical": 1,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "Monoblock",
+          "ATGText": "Monoblock: de 185 mm Tapa Decorativa, Lama Aluminio 43 mm, Blanca, Marco+Gu�a=98mm",
+          "OrderVertical": 2,
+          "OrderHorizontal": 1
+        },
+        {
+          "Product": "RecogedorMarco",
+          "ATGText": "Recogedor en Marco",
+          "OrderVertical": 3,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "TapaJuntasInterior",
+          "ATGText": "Tapajuntas Interior: 50 mm",
+          "OrderVertical": 5,
+          "OrderHorizontal": 1
+        },
+        {
+          "Product": "TapaJuntasExterior",
+          "ATGText": "Tapajuntas Exterior: NO",
+          "OrderVertical": 5,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "VerteAguas",
+          "ATGText": "Verteaguas: 140 mm",
+          "OrderVertical": 5,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "HerrajeColor",
+          "ATGText": "Herraje Blanco",
+          "OrderVertical": 6,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "Vidrio",
+          "ATGText": "Vidrio 4-16-4",
+          "OrderVertical": 7,
+          "OrderHorizontal": 2
+        }
+      ]
+    },
+    {
+      "RegionName": 2,
+      "Products": [
+        {
+          "Product": "ColorJanus",
+          "ATGText": "Farbe: JANUS (Acryglas wetterseitig)",
+          "OrderVertical": 1,
+          "OrderHorizontal": 1
+        },
+        {
+          "Product": "ExteriorAluminio",
+          "ATGText": "aussen: weissaluminium (ahnlich RAL 9006)",
+          "OrderVertical": 1,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "Interior",
+          "ATGText": "innen: RAL 9016 verkehrsweiss",
+          "OrderVertical": 1,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "FarbeWeiss",
+          "ATGText": "Farbe: Weiss",
+          "OrderVertical": 1,
+          "OrderHorizontal": 3
+        }
+      ]
+    },
+    {
+      "RegionName": 3,
+      "Products": [
+        {
+          "Product": "PremiumK825",
+          "ATGText": "Premium K825",
+          "OrderVertical": 2,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "Serie67",
+          "ATGText": "Serie 67 fv LUMAXX",
+          "OrderVertical": 2,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "VidrioBiselado",
+          "ATGText": "mit einfach abgeschragter Glasleiste !",
+          "OrderVertical": 2,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "VidrioAislamientoTermico",
+          "ATGText": "Warmeschutzglas 4E/14/4 Satinato weiss/14/4E, Ug=0.6 W/m^2K, 32dB, 'warme Kante TPS'",
+          "OrderVertical": 3,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "ProfilSystem",
+          "ATGText": "Profil system: Aluplast ID8000",
+          "OrderVertical": 2,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "RahmenSystem",
+          "ATGText": "Rahmen system: 80mm",
+          "OrderVertical": 3,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "FlugelSystem",
+          "ATGText": "Fluegel system: 77mm HL (180x26) verkleb",
+          "OrderVertical": 4,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "Entwasserung",
+          "ATGText": "Entwaesserung: nach vorne",
+          "OrderVertical": 5,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "Duebelbohrung",
+          "ATGText": "Duebelbohrung: ohne 6mm",
+          "OrderVertical": 6,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "Abstandhalter",
+          "ATGText": "Abstandhalter: Grau",
+          "OrderVertical": 7,
+          "OrderHorizontal": 3
+        }
+      ]
+    },
+    {
+      "RegionName": 4,
+      "Products": [
+        {
+          "Product": "SeguridadWSafe",
+          "ATGText": "Sicherheitsausstattung W-Safe",
+          "OrderVertical": 1,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "AperturaGiratoria",
+          "ATGText": "Dreh-Kipp DIN R nach innen offnend",
+          "OrderVertical": 2,
+          "OrderHorizontal": 1
+        },
+        {
+          "Product": "ManijaInferior190",
+          "ATGText": "Griffposition von UK-Fluegel 190 mm",
+          "OrderVertical": 3,
+          "OrderHorizontal": 3
+        },
+        {
+          "Product": "ManillaWL114",
+          "ATGText": "Fenstergriff 'W-Line 1-114' mit Secustik",
+          "OrderVertical": 4,
+          "OrderHorizontal": 1
+        },
+        {
+          "Product": "TraficoRAL",
+          "ATGText": "verkehrsweiss RAL9016",
+          "OrderVertical": 4,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "TapasHardware",
+          "ATGText": "Beschlagkappen, weiss",
+          "OrderVertical": 5,
+          "OrderHorizontal": 2
+        }
+      ]
+    },
+    {
+      "RegionName": 5,
+      "Products": [
+        {
+          "Product": "KPreci5",
+          "ATGText": "",
+          "OrderVertical": 1,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "KPreci6",
+          "ATGText": "",
+          "OrderVertical": 2,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "KPreci7",
+          "ATGText": "",
+          "OrderVertical": 3,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "KPreci8",
+          "ATGText": "",
+          "OrderVertical": 4,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "KPreci1",
+          "ATGText": "",
+          "OrderVertical": 5,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "KPreci2",
+          "ATGText": "",
+          "OrderVertical": 6,
+          "OrderHorizontal": 4
+        },
+        {
+          "Product": "KPreci3",
+          "ATGText": "",
+          "OrderVertical": 7,
+          "OrderHorizontal": 5
+        },
+        {
+          "Product": "KPreci4",
+          "ATGText": "",
+          "OrderVertical": 8,
+          "OrderHorizontal": 5
+        }
+      ]
+    },
+    {
+      "RegionName": 6,
+
+      // la región se especifica sobre unos tipos del modelo. 
+
+      "Products": [
+        {
+          "Product": "Glasmasse471",
+          "ATGText": "",
+          "OrderVertical": 1,
+          "OrderHorizontal": 2
+        },
+        {
+          "Product": "Glasmasse746",
+          "ATGText": "",
+          "OrderVertical": 2,
+          "OrderHorizontal": 4
+        },
+        {
+          "Product": "Griffhoehe1",
+          "ATGText": "",
+          "OrderVertical": 3,
+          "OrderHorizontal": 5
+        },
+        {
+          "Product": "Griffhoehe2",
+          "ATGText": "",
+          "OrderVertical": 4,
+          "OrderHorizontal": 6
+        }
+      ]
+    }
+  ]
+}
